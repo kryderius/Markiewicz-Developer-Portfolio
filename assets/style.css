@@ -234,9 +234,153 @@ p {
 
 /*PORTFOLIO*/
 .portfolio {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-header {
+  position: relative;
+  margin-left: 15vw;
+  overflow: hidden;
+}
+#designer {
+  position: absolute;
+  right: 0;
+  font-size: 15vw;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #f5f5f5;
+  z-index: -1;
+}
+#portfolio-h3 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  color: #fc5185;
+  padding-top: 10vw;
+}
+.portfolio-container {
+  margin: 100px 15vw;
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-item {
+  display: flex;
+}
+.portfolio-text {
+  width: 45%;
+  padding: 2vw 2vw 0vw 0vw;
+  position: relative;
+}
+.portfolio-img {
+  position: relative;
+  width: 55%;
+  z-index: 9;
+  overflow: hidden;
+  display: flex;
+  -webkit-box-shadow: 15px 15px 0px 0px rgba(252, 81, 133, 1);
+  -moz-box-shadow: 15px 15px 0px 0px rgba(252, 81, 133, 1);
+  box-shadow: 15px 15px 0px 0px rgba(252, 81, 133, 1);
+}
+#portfolio-img {
+  width: 100%;
+}
+.portfolio-img-span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #313131;
+}
+.cleantime-img-span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #313131;
+}
+.agachem-img-span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #313131;
 }
 
+.portfolio-h5 {
+  position: relative;
+  font-size: 4vw;
+  font-weight: 700;
+  line-height: 80%;
+  color: #3fc1c9;
+  margin-left: 15.5vw;
+  z-index: 8;
+}
+.portfolio-h5-stroke {
+  position: absolute;
+  top: 2vw;
+  font-size: 4vw;
+  font-weight: 700;
+  line-height: 80%;
+  color: transparent;
+  -webkit-text-stroke: 1px #3fc1c9;
+  margin-left: 15.5vw;
+  z-index: 10;
+}
+
+#portfolio-p {
+  color: #f5f5f5;
+  font-size: 1.5vw;
+  margin-top: 1vw;
+}
+.button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+.button a {
+  color: #3fc1c9;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: 700;
+  padding-left: 4vw;
+}
+.button span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 3vw;
+  height: 2px;
+  background-color: #3fc1c9;
+  transition: transform 0.3s ease-in-out;
+}
+.button:hover span {
+  transform: translateX(50%);
+  background-color: #fc5185;
+}
+.button:hover a {
+  color: #fc5185;
+}
+.cleantime {
+  flex-direction: row-reverse;
+  margin-top: 100px;
+}
+.cleantime-h5 {
+  margin-left: -8vw;
+}
+.cleantime-h5-stroke {
+  margin-left: -8vw;
+  top: 2vw;
+}
+.portfolio-text-cleantime {
+  padding: 2vw 0vw 0vw 2vw;
+}
+.agachem {
+  margin-top: 100px;
+}
 @media screen and (max-width: 768px) {
   /*NAV MOBILE*/
   .main-nav {
