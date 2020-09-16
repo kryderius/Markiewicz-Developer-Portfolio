@@ -665,6 +665,7 @@ p {
   border-right: 1px rgba(245, 245, 245, 0.4) solid;
   text-align: right;
   padding-right: 2vw;
+  overflow: hidden;
 }
 .contact-right {
   width: 50%;

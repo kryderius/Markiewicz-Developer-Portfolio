@@ -142,7 +142,7 @@ gsap.from("#card-h5", 1, {
   y: "100%",
   ease: Power4.easeInOut,
   scrollTrigger: {
-    trigger: ".card",
+    trigger: ".card-text-h5",
     start: "top 75%", // the default values
     // end: "bottom top",
   },
@@ -151,7 +151,7 @@ gsap.from("#card-h5-stroke", 1, {
   y: "100%",
   ease: Power4.easeInOut,
   scrollTrigger: {
-    trigger: ".card",
+    trigger: ".card-text-h5",
     start: "top 75%", // the default values
     // end: "bottom top",
   },
@@ -194,3 +194,27 @@ gsap.to("#contact-span", 1, {
     // end: "bottom top",
   },
 });
+gsap.from("#contact-header-left", 1, {
+  x: "100%",
+  ease: Power4.easeInOut,
+  delay: 0.5,
+  scrollTrigger: {
+    trigger: ".contact-left",
+    start: "top 75%", // the default values
+    // end: "bottom top",
+  },
+});
+gsap.from("#contact-header-right", 1, {
+  x: "-110%",
+  ease: Power4.easeInOut,
+  delay: 0.5,
+  scrollTrigger: {
+    trigger: ".contact-right",
+    start: "top 75%", // the default values
+    // end: "bottom top",
+  },
+});
+
+document.getElementsByTagName("body")[0].onresize = function () {
+  window.location.reload(true);
+};
