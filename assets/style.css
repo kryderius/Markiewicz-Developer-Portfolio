@@ -283,7 +283,7 @@ p {
 }
 #portfolio-img {
   width: 100%;
-  max-height: auto;
+  height: auto;
 }
 .portfolio-img-span {
   position: absolute;
