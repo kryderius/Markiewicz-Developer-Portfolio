@@ -631,6 +631,15 @@ p {
   margin-top: -4vw;
   margin-left: -3vw;
   position: relative;
+  overflow: hidden;
+}
+#contact-span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: #313131;
 }
 #contact-h5 {
   font-size: 6vw;

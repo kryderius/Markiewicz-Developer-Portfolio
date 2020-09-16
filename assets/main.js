@@ -185,3 +185,12 @@ gsap.from("#offer-h3", 1.5, {
     // end: "bottom top",
   },
 });
+gsap.to("#contact-span", 1, {
+  y: "100%",
+  ease: Power4.easeInOut,
+  scrollTrigger: {
+    trigger: ".contact-h5",
+    start: "top 75%", // the default values
+    // end: "bottom top",
+  },
+});
