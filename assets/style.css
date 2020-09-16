@@ -273,6 +273,7 @@ p {
 .portfolio-img {
   position: relative;
   width: 55%;
+  height: auto;
   z-index: 9;
   overflow: hidden;
   display: flex;
