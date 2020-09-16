@@ -166,3 +166,22 @@ gsap.to("#card-img", 1.5, {
     scrub: true,
   },
 });
+gsap.from("#graphic", 1.5, {
+  x: "-60%",
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".offer",
+    start: "top bottom", // the default values
+    end: "bottom bottom",
+    scrub: true,
+  },
+});
+gsap.from("#offer-h3", 1.5, {
+  y: "100%",
+  ease: Power4.easeInOut,
+  scrollTrigger: {
+    trigger: ".offer-heading",
+    start: "top bottom", // the default values
+    // end: "bottom top",
+  },
+});
