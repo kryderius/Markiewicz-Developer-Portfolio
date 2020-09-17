@@ -77,9 +77,9 @@ gsap.from("#designer", 1.5, {
   x: "60%",
   ease: "none",
   scrollTrigger: {
-    trigger: ".portfolio",
+    trigger: ".portfolio-header",
     start: "top bottom", // the default values
-    end: "center bottom",
+    end: "bottom center",
     scrub: true,
   },
 });
@@ -170,9 +170,9 @@ gsap.from("#graphic", 1.5, {
   x: "-60%",
   ease: "none",
   scrollTrigger: {
-    trigger: ".offer",
+    trigger: ".offer-heading",
     start: "top bottom", // the default values
-    end: "bottom bottom",
+    end: "bottom center",
     scrub: true,
   },
 });
