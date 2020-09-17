@@ -214,7 +214,29 @@ gsap.from("#contact-header-right", 1, {
     // end: "bottom top",
   },
 });
-
+gsap.from("#hero-faq-h1", 1, {
+  opacity: 0,
+  y: "-100%",
+  ease: Power4.easeInOut,
+  scrollTrigger: {
+    trigger: ".hero-faq",
+    start: "top 75%", // the default values
+    // end: "bottom top",
+  },
+});
+gsap.from("#faq-hero-h2", 1, {
+  opacity: 0,
+  x: "-20%",
+  delay: 0.5,
+  ease: Power4.easeInOut,
+  scrollTrigger: {
+    trigger: ".hero-faq",
+    start: "top 75%", // the default values
+    // end: "bottom top",
+  },
+});
+/*
 document.getElementsByTagName("body")[0].onresize = function () {
   window.location.reload(true);
 };
+*/
