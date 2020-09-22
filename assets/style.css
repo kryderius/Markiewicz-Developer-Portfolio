@@ -261,6 +261,10 @@ p {
   margin: 100px 15vw;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.button2-portfolio {
+  margin-top: 5vw;
 }
 .portfolio-item {
   display: flex;
@@ -760,7 +764,7 @@ footer {
 
 /* CONTACT PAGE */
 .contact-section {
-  padding: 0px 15vw 100px 15vw;
+  padding: 100px 15vw 100px 15vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -809,6 +813,119 @@ footer {
   width: 3vw;
   height: 3vw;
   margin-right: 1vw;
+}
+
+/*PORTFOLIO PAGES*/
+.hero-portfolio {
+  margin: 200px 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-portfolio-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+.hero-portfolio-left {
+  text-align: right;
+  width: 50%;
+  padding-right: 2vw;
+  border-right: 1px rgba(245, 245, 245, 0.4) solid;
+  overflow: hidden;
+}
+.hero-portfolio-right {
+  width: 50%;
+  padding-left: 2vw;
+}
+.hero-portfolio-long {
+  font-size: 2vw;
+  letter-spacing: 10px;
+  color: #f5f5f5;
+}
+.hero-portfolio-main {
+  font-size: 4vw;
+  font-weight: 700;
+  color: #3fc1c9;
+  line-height: 80%;
+}
+.hero-portfolio-p {
+  font-size: 1.5vw;
+  color: #f5f5f5;
+  font-weight: 200;
+}
+.portfolio-images {
+  margin: 0px 15vw 100px 15vw;
+}
+.portfolio-images img {
+  width: 100%;
+}
+.portfolio-images img:nth-child(1) {
+  margin-bottom: 100px;
+}
+
+.portfolio-grid {
+  padding: 100px 15vw;
+}
+.portfolio-grid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: -5vw 0 0 -5vw;
+}
+.portfolio-grid-link {
+  position: relative;
+  display: flex;
+}
+.portfolio-grid-item {
+  width: calc(50% - 5vw);
+  margin: 5vw 0 0 5vw;
+}
+.portfolio-grid-img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  transition: filter 0.3s ease-out;
+}
+.portfolio-grid-title-wrapper {
+  position: absolute;
+  bottom: -10%;
+  left: 0;
+}
+.portfolio-grid-title {
+  font-size: 3vw;
+  color: #3fc1c9;
+  font-weight: 700;
+  z-index: -1;
+  transition: transform 0.3s ease-out;
+}
+.portfolio-grid-title-stroke {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  font-size: 3vw;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #3fc1c9;
+}
+.portfolio-grid-link:hover .portfolio-grid-title {
+  transform: translateY(40%);
+}
+.portfolio-grid-link:hover .portfolio-grid-img {
+  filter: grayscale(100%);
+}
+.portfolio-grid-bg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.portfolio-grid-bg img {
+  width: 100%;
+  opacity: 0.1;
 }
 
 @media screen and (max-width: 768px) {
@@ -864,6 +981,9 @@ footer {
   }
   .portfolio-container {
     margin: 100px 15px;
+  }
+  .button2-portfolio {
+    margin-top: 10vw;
   }
   .portfolio-item {
     flex-direction: column-reverse;
@@ -1050,7 +1170,7 @@ footer {
     font-size: 5vw;
   }
   .questions {
-    margin: 100px 15px;
+    margin: 0 15px 100px 15px;
     flex-direction: column;
   }
   .question {
@@ -1063,7 +1183,7 @@ footer {
     font-size: 3vw;
   }
   .contact-section {
-    padding: 0px 15px 100px 15px;
+    padding: 100px 15px 100px 15px;
   }
   #contact-section-p-pink {
     font-size: 6vw;
@@ -1100,5 +1220,48 @@ footer {
     width: 5vw;
     height: 5vw;
     margin-right: 1vw;
+  }
+  .hero-portfolio {
+    margin: 100px 15px;
+  }
+  .hero-portfolio-container {
+    flex-direction: column;
+  }
+  .hero-portfolio-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .hero-portfolio-right {
+    width: 100%;
+    border-left: 1px rgba(245, 245, 245, 0.4) solid;
+  }
+  .hero-portfolio-long {
+    font-size: 5vw;
+  }
+  .hero-portfolio-main {
+    font-size: 8vw;
+  }
+  .hero-portfolio-p {
+    font-size: 4vw;
+  }
+  .portfolio-images {
+    margin: 0px 15px 100px 15px;
+  }
+  .portfolio-grid {
+    padding: 0 15px 100px 15px;
+  }
+  .portfolio-grid-container {
+    flex-direction: column;
+    margin: -10vw 0 -10vw 0;
+  }
+  .portfolio-grid-item {
+    width: 100%;
+    margin: 10vw 0 10vw 0;
+  }
+  .portfolio-grid-title {
+    font-size: 9vw;
+  }
+  .portfolio-grid-title-stroke {
+    font-size: 9vw;
   }
 }

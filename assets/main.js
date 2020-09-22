@@ -235,6 +235,17 @@ gsap.from("#faq-hero-h2", 1, {
     // end: "bottom top",
   },
 });
+gsap.from(".hero-portfolio-long", 1, {
+  opacity: 0,
+  y: "-100%",
+  ease: Power4.easeInOut,
+});
+gsap.from(".hero-portfolio-main", 1, {
+  opacity: 0,
+  x: "100%",
+  ease: Power4.easeOut,
+  delay: 0.5,
+});
 /*
 document.getElementsByTagName("body")[0].onresize = function () {
   window.location.reload(true);
