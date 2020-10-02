@@ -864,6 +864,9 @@ footer {
 .portfolio-images img:nth-child(1) {
   margin-bottom: 100px;
 }
+.portfolio-images img:nth-child(2) {
+  margin-bottom: 100px;
+}
 
 .portfolio-grid {
   padding: 100px 15vw;
