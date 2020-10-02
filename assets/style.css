@@ -927,6 +927,18 @@ footer {
   width: 100%;
   opacity: 0.1;
 }
+#website-in-dev {
+  color: #fc5185;
+  font-size: 6vw;
+  font-weight: 700;
+  text-align: center;
+}
+#website-in-dev2 {
+  color: #3fc1c9;
+  font-size: 4vw;
+  font-weight: 700;
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
   /*NAV MOBILE*/

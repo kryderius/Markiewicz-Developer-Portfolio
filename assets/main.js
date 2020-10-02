@@ -246,6 +246,7 @@ gsap.from(".hero-portfolio-main", 1, {
   ease: Power4.easeOut,
   delay: 0.5,
 });
+
 /*
 document.getElementsByTagName("body")[0].onresize = function () {
   window.location.reload(true);
