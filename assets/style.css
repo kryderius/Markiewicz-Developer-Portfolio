@@ -314,6 +314,14 @@ p {
   height: 100%;
   background-color: #313131;
 }
+.sunset-img-span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #313131;
+}
 
 .portfolio-h5 {
   position: relative;
@@ -386,6 +394,10 @@ p {
   padding: 2vw 0vw 0vw 2vw;
 }
 .agachem {
+  margin-top: 100px;
+}
+.hotel-sunset {
+  flex-direction: row-reverse;
   margin-top: 100px;
 }
 

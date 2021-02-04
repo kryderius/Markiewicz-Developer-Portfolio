@@ -119,6 +119,15 @@ gsap.to(".agachem-img-span", 1, {
     // end: "bottom top",
   },
 });
+gsap.to(".sunset-img-span", 1, {
+  x: "100%",
+  ease: Power4.easeInOut,
+  scrollTrigger: {
+    trigger: ".sunset-img",
+    start: "top 75%", // the default values
+    // end: "bottom top",
+  },
+});
 gsap.from("#h3-left", 1, {
   y: "100%",
   opacity: 0,
