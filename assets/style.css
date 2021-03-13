@@ -955,6 +955,139 @@ footer {
   text-align: center;
 }
 
+.react-hero {
+  padding: 150px 15vw 0 15vw;
+}
+.react-hero-img {
+  width: 100%;
+}
+
+.react-section {
+  padding: 0 15vw;
+}
+.react-container {
+  display: flex;
+  padding: 100px 0;
+}
+.react-section1-left {
+  width: 60%;
+}
+.react-heading {
+  font-size: calc(24px + 1vw);
+  color: #f5f5f5;
+  margin-bottom: 50px;
+}
+.react-text {
+  font-size: calc(4px + 1vw);
+  color: #f5f5f5;
+  font-weight: 200;
+}
+
+.react-section1-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.glass {
+  width: 70%;
+  height: 7vw;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    101.08deg,
+    rgba(255, 255, 255, 0.71) 0%,
+    rgba(255, 255, 255, 0.28) 100%
+  );
+  backdrop-filter: blur(24px);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.glass-p {
+  font-size: calc(10px + 0.6vw);
+  font-weight: 200;
+}
+.react-section2-left {
+  width: 40%;
+}
+.react-section2-right {
+  width: 60%;
+}
+.react-section2-img {
+  width: 80%;
+}
+.react-section3-p-margin {
+  margin-top: 30px;
+}
+.react-section3-left {
+  width: 50%;
+}
+.react-section3-right {
+  width: 50%;
+}
+.react-section3-img {
+  width: 100%;
+}
+.react-section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.react-section4-wrapper {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.react-section4-card {
+  width: 10%;
+  text-align: center;
+}
+.react-section4-img {
+  width: 100%;
+}
+#smaller-img {
+  width: 60%;
+}
+#react-section4-bottom-p {
+  margin-top: 50px;
+}
+.react-section5 {
+  flex-direction: column;
+}
+.react-section5-card {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.react-section5-heading {
+  width: 50%;
+}
+.react-section5-text {
+  width: 50%;
+}
+.react-section5-pinktext {
+  color: #fc5185;
+  font-size: calc(8px + 1vw);
+  font-weight: 700;
+}
+.react-section-portfolio-heading {
+  margin: 0;
+}
+.react-portfolio {
+  margin-top: 100px;
+}
+.react-portfolio-item {
+  margin: 0;
+}
+
 @media screen and (max-width: 768px) {
   /*NAV MOBILE*/
   .main-nav {
@@ -1290,5 +1423,76 @@ footer {
   }
   .portfolio-grid-title-stroke {
     font-size: 9vw;
+  }
+  .react-hero {
+    padding: 150px 15px 0 15px;
+  }
+  .react-hero-img {
+    width: 100%;
+  }
+  .react-section {
+    padding: 0 15px;
+  }
+  .react-container {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .react-section1-left {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .react-section1-right {
+    width: 100%;
+    align-items: center;
+  }
+  .react-text {
+    font-size: 18px;
+  }
+  .glass {
+    height: 100px;
+  }
+  .glass-p {
+    font-size: 16px;
+  }
+  .react-section2-left {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .react-section2-right {
+    width: 100%;
+  }
+  .react-section2-img {
+    width: 80%;
+  }
+  .react-section3-left {
+    width: 100%;
+  }
+  .react-section3-right {
+    width: 100%;
+    text-align: center;
+  }
+  .react-section3-img {
+    width: 80%;
+  }
+  .react-section4-wrapper {
+    flex-direction: column;
+  }
+  .react-section4-card {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .react-section5-pinktext {
+    font-size: calc(18px + 1vw);
+  }
+  .react-section5-card {
+    flex-direction: column;
+  }
+  .react-section5-heading {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .react-section5-text {
+    width: 100%;
   }
 }
