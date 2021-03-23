@@ -725,6 +725,7 @@ footer {
 }
 #copyright {
   font-size: 1vw;
+  margin-top: 20px;
 }
 .hero-faq {
   padding: 100px 15vw;
@@ -1086,6 +1087,39 @@ footer {
 }
 .react-portfolio-item {
   margin: 0;
+}
+.privacy {
+  padding: 200px 15vw;
+}
+.privacy > h1,
+.privacy > h2,
+.privacy > h3,
+.privacy > h4,
+.privacy > h5,
+.privacy > ul,
+.privacy > li,
+.privacy > a {
+  color: #f5f5f5;
+}
+.privacy > p,
+.privacy > ul > li > p,
+.privacy > ul > li > ul > li > p {
+  font-size: 18px !important;
+}
+.privacy-link {
+  color: #3fc1c9;
+}
+.privacy > h1,
+.privacy > h2,
+.privacy > h3,
+.privacy > h4,
+.privacy > h5,
+.privacy > h6 {
+  margin: 50px 0 30px 0;
+}
+.privacy-footer-link {
+  color: #f5f5f5;
+  font-size: 1vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -1494,5 +1528,15 @@ footer {
   }
   .react-section5-text {
     width: 100%;
+  }
+  .privacy {
+    padding: 200px 20px;
+  }
+  .privacy > p,
+  .privacy > ul {
+    font-size: 16px;
+  }
+  .privacy-footer-link {
+    font-size: 2.5vw;
   }
 }
