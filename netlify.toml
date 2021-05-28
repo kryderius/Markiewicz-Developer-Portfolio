@@ -3,3 +3,8 @@
   to = "https://markiewicz-dev.pl"
   status = 301
   force = true
+[[redirects]]
+  from = "https://markiewicz.netlify.app/strony-internetowe-react-gatsby.html"
+  to = "https://markiewicz-dev.pl/strony-internetowe-react-gatsby.html"
+  status = 301
+  force = true
