@@ -8,3 +8,18 @@
   to = "https://markiewicz-dev.pl/strony-internetowe-react-gatsby.html"
   status = 301
   force = true
+[[redirects]]
+  from = "https://markiewicz.netlify.app/kontakt.html"
+  to = "https://markiewicz-dev.pl/kontakt.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://markiewicz.netlify.app/portfolio"
+  to = "https://markiewicz-dev.pl/portfolio"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://markiewicz.netlify.app/faq.html"
+  to = "https://markiewicz-dev.pl/faq.html"
+  status = 301
+  force = true
